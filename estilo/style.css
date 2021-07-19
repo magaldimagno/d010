@@ -107,22 +107,23 @@ main h2 {
 }
 
 main p {
-    text-indent: 25px;
-    padding: 10px;
-    margin: 5px 0px;
+    text-indent: 30px;
+    margin: 15px 0px;
     text-align: justify;
+    line-height: 2em;
 }
 
 main a {
-    color: var(--cor4);
+    color: var(--cor5);
     text-decoration: none;
     font-weight: bold;
-    padding: 1px 5px;
+    padding: 2px 5px;
     background-color: var(--cor1);
 }
 
 main a:hover {
     text-decoration: underline;
+    color: var(--cor4);
 }
 
 main a::after {
@@ -134,7 +135,7 @@ main img {
 }
 
 main img.pequena {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
