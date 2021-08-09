@@ -127,8 +127,8 @@ main a:hover {
     color: var(--cor4);
 }
 
-main a::after {
-    content: ' 🔗';
+main a.externo::after {
+    content: '\00A0\1F517';
 }
 
 main img {
