@@ -167,14 +167,10 @@ aside p {
 }
 
 aside ul {
-    list-style: none inside;
+    list-style: '\2714\00A0\00A0' inside;
     padding: 0px 10px;
     columns: 2;
     display: block;
-}
-
-li::before {
-    content: '✔ ';
 }
 
 footer {
