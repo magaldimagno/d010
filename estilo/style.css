@@ -149,8 +149,8 @@ main strong {
 aside {
     background-color: var(--cor1);
     border-radius: 10px;
-    padding-bottom: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
     margin: 10px 0px;
 }
 
@@ -158,17 +158,12 @@ aside h3 {
     background-color: var(--cor4);
     color: white;
     padding: 10px;
+    margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
-}
-
-aside p {
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 aside ul {
     list-style: none inside;
-    padding: 0px 10px;
     columns: 2;
     display: block;
 }
